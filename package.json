@@ -1,0 +1,35 @@
+{
+  "name": "freecodecamp-tribute-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel src/pages/index.njk",
+    "build": "parcel build src/pages/index.njk",
+    "new": "plop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nunjucks": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nunjucks": "^2.2.0",
+    "plop": "^2.5.3",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@alexlit/css-material-color-palette-variables": "^1.0.5",
+    "bowser": "^2.9.0",
+    "cq-prolyfill": "^0.4.0",
+    "css-has-pseudo": "^1.0.0",
+    "normalize.css": "^8.0.1",
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-each": "^0.10.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "postcss-object-fit-images": "^1.1.2",
+    "postcss-preset-env": "^6.7.0"
+  }
+}

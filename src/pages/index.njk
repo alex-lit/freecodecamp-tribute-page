@@ -1,0 +1,16 @@
+{% extends "layouts/default.njk" %}
+
+{% from 'components/page-header/page-header.template.njk' import PageHeader %}
+{% from 'components/page-promo/page-promo.template.njk' import PagePromo %}
+{% from 'components/calendar-list/calendar-list.template.njk' import CalendarList %}
+{% from 'components/page-footer/page-footer.template.njk' import PageFooter %}
+
+{% block page %}
+    {{ PageHeader() }}
+
+    {{ PagePromo() }}
+
+    {{ CalendarList() }}
+
+    {{ PageFooter() }}
+{% endblock %}
