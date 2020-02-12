@@ -5,7 +5,7 @@
   "main": "dist/index.html",
   "scripts": {
     "dev": "parcel src/pages/index.njk",
-    "build": "parcel build src/pages/index.njk --public-url ./",
+    "build": "parcel build src/pages/index.njk --public-url ./ --no-minify",
     "new": "plop"
   },
   "keywords": [],
