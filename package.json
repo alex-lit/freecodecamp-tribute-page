@@ -5,7 +5,7 @@
   "main": "src/pages/index.njk",
   "scripts": {
     "dev": "parcel src/pages/index.njk",
-    "build": "parcel build src/pages/index.njk",
+    "build": "parcel build src/pages/index.njk --public-url ./",
     "new": "plop"
   },
   "keywords": [],
